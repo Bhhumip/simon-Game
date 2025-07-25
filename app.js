@@ -17,13 +17,13 @@ function gameFlash(btn){
     btn.classList.add("gameFlash");
     setTimeout(function(){
         btn.classList.remove("gameFlash");
-    },250);
+    },500);
 }
 function userFlash(btn){
     btn.classList.add("userFlash");
     setTimeout(function(){
         btn.classList.remove("userFlash");
-    },250);
+    },500);
 }
 function levelUp(){
     userSeq=[];
